@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0" />
+    <title>XR and LED Tech</title>
+
+    <!-- CSS  -->
+    <link href="contact.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
+
+    <!--  JavaScripts-->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('.sidenav').sidenav();
+            $('.slider').slider();
+            //$('.slider').slider({fullWidth: true, indicators: false, height: 500, interval: 6000});
+            $('.scrollspy').scrollSpy()
+        });
+        $(document).ready(function() {
+            $('.datepicker').datepicker();
+        });
+
+    </script>
+
+</head>
+<div id="background">
+
+    <body id="home">
+
+        <!-- navigation bar -->
+        <nav class="" role="navigation">
+            <div class="row col l12 m12 s12" style="background-color: #edc975">
+                <div class="col l4 m4 s4"><img class="logo" src="Icon.png" style="height: 70px;float: left;margin: 0px;padding: 0px;"><a id="Begin">XR and LED Tech</a></div>
+                <div class="col l8 m8 s8">
+                    <ul id="Nav" style="font-family: century gothic;">
+                    <li><a class="nav" href="index.html">Home</a></li>
+                <li><a class="nav" href="history.html">History</a></li>
+                <li><a class="nav" href="applications.html">Applications</a></li>
+                <li><a class="nav" href="faq.html">FAQ</a></li>
+                <li><a class="nav" href="about.html">About Us</a></li>
+                <li><a class="nav" href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- contact us -->
+        <h4 class="center">Contact Us</h4>
+        <div class="container">
+            <form action="https://formsubmit.co/garcia57@miamioh.edu" method="POST" class="col s12">
+                <div class="row">
+                    <div class="input-field col s6">
+                        <i class="material-icons prefix">account_circle</i>
+                        <input id="icon_prefix" type="text" name="name" class="validate">
+                        <label for="icon_prefix">Name</label>
+                    </div>
+                    <div class="input-field col s6">
+                        <i class="material-icons prefix">email</i>
+                        <input id="icon_prefix" type="text" name="email" class="validate">
+                        <label for="icon_prefix">Email</label>
+                    </div>
+                    <div class="input-field col s6">
+                        <i class="material-icons prefix">phone</i>
+                        <input id="icon_telephone" type="tel" class="validate" name="phone">
+                        <label for="icon_telephone">Telephone</label>
+                    </div>
+                    <div class="input-field col s6">
+                        <i class="material-icons prefix">date_range</i>
+                        <input type="text" class="datepicker">
+                        <label for="icon_date_range">Best Date to Contact</label>
+                    </div>
+                    <div class="input-field col s12">
+                        <i class="material-icons prefix">message</i>
+                        <textarea id="questions" class="materialize-textarea" name="comment"></textarea>
+                        <label for="questions">Questions?</label>
+                    </div>
+                </div>
+                <input type="submit" value="Submit" class="black btn-large">
+            </form>
+        </div>
+        <!-- our location -->
+        <hr>
+        <h4 class="center">Our Location</h4>
+        <div class="center">
+            <p>McVey Data Science Building<br />
+                105 Tallawanda Rd.<br />
+                Oxford, OH 45056<br />
+            </p>
+            <iframe class="info" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3078.1348837736973!2d-84.7366722242009!3d39.51144531024036!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88403d78f83f6be5%3A0x38a0e4c65bce2a81!2sMcVey%20Data%20Science%20Building!5e0!3m2!1sen!2sus!4v1727845206020!5m2!1sen!2sus" width="400" height="300" style="border" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <br>
+        
+        <footer>
+            <div class="row col l12 m12 s12" style="height: 30px">
+                <div class="col l4 m4 s4">
+                    <p id="Copyright" style="margin-left: 25%">Copyright &copy; Team Sea</p>
+                </div>
+                <div class="col l4 m4 s4">
+                    <img src="Worded%20Logo.png" style="width: 150px; margin-left: 25%">
+                </div>
+                <div class="col l4 m4 s4">
+                    <p><a href="#top" id="pageTop" style="margin-right: 25%">Going Up?</a></p>
+                </div>
+            </div>
+        </footer>
+    </body>

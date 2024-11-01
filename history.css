@@ -1,0 +1,119 @@
+body {
+	font-family: Gerogia, Times, sans-serif;
+	line-height: 1.4em;
+	margin: 0px;
+}
+
+#Begin {
+    font-family: Lora;
+    font-size: 20px;
+    color: black;
+}
+
+#Nav {
+    display: inline;
+    float: right;
+}
+
+.nav {
+    color: black;
+}
+
+#background {
+    background-color: #FFE5B4;
+}
+
+footer {
+    align-content: center;
+    background-color: #edc975;
+}
+
+#Copyright {
+    float: left;
+}
+
+#pageTop {
+    text-decoration-style: none;
+    color: blue;
+    float: right;
+    display: inline;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+hr {
+    width: 90%
+}
+
+a {
+    text-decoration: none;
+    font-family: century gothic;
+}
+
+#color {
+    background-color: #FFE5B4;
+}
+
+h1 {
+    text-align: center;
+    font-family: century gothic;
+    background-color: #FFE5B4;
+}
+
+h2{
+    text-align: center;
+    font-family: century gothic;
+}
+
+p {
+    font-family: Lora;
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.bottom {
+    margin-bottom: 0px;
+    padding-bottom: 10px;
+}
+
+#info {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 500px;
+    border: 10px inset gray;
+}
+
+#ref {
+    text-align: center;
+}
+
+br {
+    padding: 0px;
+    margin: 0px;
+}
+
+#references {
+    text-decoration: none;
+    list-style-type: none;
+    padding: none;
+}
+
+#one {
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+#head {
+    margin-top: 0px;
+    padding-top: 10px;
+    font-size: 40px;
+    margin-bottom: 10px;
+    background-color: #FFE5B4;
+}
+
+#text {
+    font-size: 15px;
+    line-height: normal;
+}

@@ -1,0 +1,58 @@
+#Begin {
+    font-family: Lora;
+    font-size: 20px;
+    color: black;
+}
+
+#Nav {
+    display: inline;
+    float: right;
+    font-family: century gothic;
+}
+
+.nav {
+    color: black;
+}
+
+#background {
+    background-color: #FFE5B4;
+}
+
+#collapsible-header {
+    
+    background-color: #edc975
+}
+h1 {
+    font-family:
+}
+footer {
+    align-content: center;
+    background-color: #edc975;
+}
+#one {
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+#head {
+    margin-top: 0px;
+    padding-top: 10px;
+    font-size: 40px;
+    margin-bottom: 10px;
+    background-color: #FFE5B4;
+}
+#Copyright {
+    float: left;
+}
+
+#pageTop {
+    text-decoration-style: none;
+    color: blue;
+    float: right;
+    display: inline;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+.faq {
+    color: blue;
+}
+
